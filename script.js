@@ -156,9 +156,9 @@ setInterval(function(){
   ctx.fillText(P1Score.toString()+":"+P2Score.toString(),225,30,40)
   if(time % 3600==0){
     BallSpeed += 1
-    playerLength += 1
-    playerSpeed += 1
-    variation += 0.5
+    playerLength += .5
+    playerSpeed += .5
+    variation += 1
   }
 },1000/60)
 document.onkeydown = function(e){
