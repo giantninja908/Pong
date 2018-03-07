@@ -1,0 +1,44 @@
+body {
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+  background: #aaa;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.center {
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background: #aaaaaa;
+  position: relative;
+  height: 100vh;
+  cursor:url('https://i2.wp.com/s20.postimg.org/96mjh4f71/cur2.jpg'), auto;
+}
+
+@keyframes animation {
+0%   {background: purple;}
+25%  {background: blue;}
+50%  {background: orange;}
+75%  {background: blue;}
+100% {background: purple;}
+}
+
+
+#canvas{
+  background-color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
